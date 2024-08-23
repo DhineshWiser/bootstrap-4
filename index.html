@@ -13,7 +13,7 @@
    <header>
     <nav class="navbar navbar-expand-sm navbar-light bg-light1 p-3 fixed-top">
         <div class="container-fluid mx-lg-5">
-          <a class="navbar-brand fs-2 fw-bold" href="javascript:void(0)">Presento<span class="col_1">.</span></a>
+          <a class="navbar-brand fs-2 fw-bold" href="javascript:void(0)">Wiser<span class="col_1">.</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,7 +40,7 @@
               <li class="nav-item">
                 <a class="nav-link active" href="#Contact">Contact</a>
               </li>
-              <button class="btn d-none d-lg-block bg-danger text-white get_btn" type="button">Get Started</button>
+                <button class="btn d-none d-lg-block bg-danger text-white get_btn" type="button">Get Started</button>
             </ul>
           </div>
         </div>
@@ -50,9 +50,11 @@
         <div class="row ">
             <div class="col-12 col-lg-8">
                 <div class="metter">
-                  <h1 class="digitals pt-5 pt-lg-0 ">Bettter digital experience with Presento</h1>
+                  <h1 class="digitals pt-5 pt-lg-0 ">Bettter digital experience with Wiser</h1>
                 <p class="fs-3 text-white">We are team of talented designers making websites with Bootstrap</p>
-                <button class="btn bg-danger my-3 my-lg-0 px-5 py-2 text-white fs-5">Get Started</button>
+                <a href="#banner">
+                  <button class="btn bg-danger my-3 my-lg-0 px-5 py-2 text-white fs-5">Get Started</button>
+                </a>
                 </div>
             </div>
             <div class="col-12 col-lg-4"></div>           
@@ -85,7 +87,7 @@
       </div>
     </section>
  <section class=" text-white sec3" id="About">
- <div class="container">
+ <div class="container" id="banner">
   <div class="row trans">
     <div class="col-lg-6">
       <div class="fs-1 fw-bold dignissimoss " >Voluptatem dignissimos provident quasi</div>
@@ -300,15 +302,6 @@
       <span>
         <button class="btn fw-bold webbutton">All</button>
       </span>
-      <span>
-        <button class="btn fw-bold webbutton">APP</button>
-      </span>
-      <span>
-        <button class="btn fw-bold webbutton">CARD</button>
-      </span>
-      <span>
-        <button class="btn fw-bold webbutton">WEB</button>
-      </span>
     </div>
     <div class="row gap-4 gap-lg-0">
       <div class="col-lg-4">
@@ -452,20 +445,69 @@
         <h1>FREQUENTLY ASKED QUESTIONS</h1>
       </div>
 <div class="fs-5 my-5">
-  <div>Non consectetur a erat nam at lectus urna duis?</div>
-  <hr>
-  <div>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</div>
-  <hr>
-  <div>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</div>
-  <hr>
-  <div>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</div>
-  <hr>
-  <div>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</div>
-  <hr>
-  <div>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</div>
-  <hr>
-</div>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Non consectetur a erat nam at lectus urna duis?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
     </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+        Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+      </button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+</div>
   </section>
    <section class="my-5 " id="Blog">
     <div class="container">
@@ -529,19 +571,19 @@
           <div class="d-flex flex-column flex-lg-row gap-3 text-center">
             <div class="gmail mapp mt-3">
               <span><i class="fa fa-envelope-o fs-2 text-danger" aria-hidden="true"></i></span>
-            <h3 class="mt-3 text-muted">Email Us</h3>
-            <p>contact@example.com</p>
-            <p>akashakar123@gmail.com</p>
+              <h3 class="mt-3 text-muted">Email Us</h3>
+              <p>contact@example.com</p>
+              <p>dhinesh4460@gmail.com</p>
             </div>
             <div class="callll mapp mt-3 ">
               <span><i class="fa fa-phone fs-2 text-danger" aria-hidden="true"></i></span>
-            <h3 class="mt-3 text-muted">Call Us</h3>
-            <p>91+7538638021</p>
-            <p>91+8825911054</p>
+              <h3 class="mt-3 text-muted">Call Us</h3>
+              <p>91+7538638021</p>
+              <p>91+8825911054</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mt-4 mt-lg-0">
+        <div class="col-lg-6 ">
           <div class="text-center boxs">
             <form action="" class="gmail">
               <div class="form_input d-flex gap-3">
@@ -565,11 +607,12 @@
       </div>
     </div>
   </section>
+  
 <footer class="footerr text-white py-4 mt-5" id="get">
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-3 py-2">
-          <h5 class="text-decoration-underline">Presento.</h5>
+          <h5 class="text-decoration-underline">Wiser.</h5>
           <p>Pudukkottai Dt, 622 304,</p>
           <p>Tamil Nadu</p>
           <div>
@@ -606,6 +649,6 @@
       </div>
     </div>
  </footer> 
-  <script src="./assets/CDN/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>  
+  <script src="./assets/downlaod/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
